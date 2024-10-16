@@ -1,5 +1,5 @@
-Data Storage App Development Flow
----------------------------------
+Data Storage Workshop
+---------------------
 
 ### Goals:
 - Allow users to submit messages
