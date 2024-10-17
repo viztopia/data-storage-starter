@@ -30,9 +30,9 @@ app.use(express.static('public'));
 app.use(express.json());
 
 //Set port variable to listen for requests
-let port = 3000;
+let port = process.env.PORT || 3000;
 app.listen(port, () => {
-  console.log('Server listening on localhost:', port);
+console.log('listening at ', port);
 });
 
 /*ROUTES */
