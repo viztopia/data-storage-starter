@@ -2,7 +2,7 @@
 let defaultData = [
   {
     name: "Me",
-    message: "This is my first y message"
+    message: "This is my first message"
   },
   {
     name: "You",

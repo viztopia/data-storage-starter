@@ -75,6 +75,7 @@ console.log(messageObj);
 10. **CLIENT** - Convert the object into JSON using `JSON.stringify()`
 ```
 let messageObjJSON = JSON.stringify(messageObj);
+console.log(messageObjJSON);
 ```
 11. **CLIENT** - Inside the callback function use `fetch()` to make a POST request to the server. 
 ```
@@ -111,7 +112,7 @@ app.use(express.json());
 let newMessage = request.body;
 newMessage.time = Date();
 ```
-16. **SERVER** - Store the new message data in the existing daa array
+16. **SERVER** - Store the new message data in the existing data array
 ```
 defaultData.push(newMessage);
 ```
@@ -140,12 +141,12 @@ npm install lowdb
 import { Low } from 'lowdb';
 import { JSONFile } from 'lowdb/node';
 ```
-22. **SERVER** - Add "type": "module" to package.json
+22. **SERVER** - Add `"type": "module",` to package.json
 23. **SERVER** - Update the express import from `require`
 ```
 import express from 'express';
 ```
-24. **SERVER** - Initilaize a lowdb json database
+24. **SERVER** - Initilaize a lowdb json database AND comment out the existing `defaultData` array
 ```
 const defaultData = { messages: [] };
 const adapter = new JSONFile('db.json');
