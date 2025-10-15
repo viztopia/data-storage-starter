@@ -146,7 +146,7 @@ import { JSONFile } from 'lowdb/node';
 ```
 import express from 'express';
 ```
-24. **SERVER** - Initilaize a lowdb json database
+24. **SERVER** - Initilaize a lowdb json database AND comment out the existing `defaultData` array
 ```
 const defaultData = { messages: [] };
 const adapter = new JSONFile('db.json');
