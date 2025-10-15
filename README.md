@@ -75,6 +75,7 @@ console.log(messageObj);
 10. **CLIENT** - Convert the object into JSON using `JSON.stringify()`
 ```
 let messageObjJSON = JSON.stringify(messageObj);
+console.log(messageObjJSON);
 ```
 11. **CLIENT** - Inside the callback function use `fetch()` to make a POST request to the server. 
 ```
