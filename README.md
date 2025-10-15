@@ -112,7 +112,7 @@ app.use(express.json());
 let newMessage = request.body;
 newMessage.time = Date();
 ```
-16. **SERVER** - Store the new message data in the existing daa array
+16. **SERVER** - Store the new message data in the existing data array
 ```
 defaultData.push(newMessage);
 ```
