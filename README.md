@@ -141,7 +141,7 @@ npm install lowdb
 import { Low } from 'lowdb';
 import { JSONFile } from 'lowdb/node';
 ```
-22. **SERVER** - Add `"type": "module"` to package.json
+22. **SERVER** - Add `"type": "module",` to package.json
 23. **SERVER** - Update the express import from `require`
 ```
 import express from 'express';
