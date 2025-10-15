@@ -13,7 +13,7 @@ Data Storage Workshop
 3. Run `node --watch index.js` to serve the app with server restarts
 4. Make a change on the server side to confirm `--watch` restart is working
 
-### PART 2 - GET + DISPLAY DATA:
+### PART 2 - GET + DISPLAY DATA
 5.  **SERVER** - Create a route to serve the data
 ```
 app.get('/messages', (request, response) => {
@@ -133,7 +133,7 @@ msgInput.value = '';
 ### PART 4 - ADD A DATABASE
 20. **SERVER** - Install lowdb
 ```
-npm install lowdb@6.1.1
+npm install lowdb
 ```
 21. **SERVER** - Load lowdb using `import` keyword (ESM - ecmascript module)
 ```
